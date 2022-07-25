@@ -2,7 +2,7 @@ package com.epicode.backend.week1;
 
 
 
-public abstract class Audio extends Media implements RiproduciMedia {
+public class Audio extends Media implements RiproduciMedia {
 	
 	private int duration;
 	private int volume;
@@ -46,5 +46,11 @@ public abstract class Audio extends Media implements RiproduciMedia {
 	@Override
 	public void DownVolume() {
 		volume--;
+	}
+
+	@Override
+	public void playAudio() {
+		// TODO Auto-generated method stub
+		
 	}
 }

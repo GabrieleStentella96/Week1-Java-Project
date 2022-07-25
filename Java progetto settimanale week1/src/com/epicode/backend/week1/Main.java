@@ -7,8 +7,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		String title;
-		int vol;
-		int light;
+		int vol = 0;
+		int light = 0;
 		int type;
 		int dur;
 
